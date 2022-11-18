@@ -9,8 +9,9 @@ def main2():
 def hello_world2():
     return render_template('base.html')
   
+'''  
 @app.route("/<path:filepath>")  
 def readDetails(filepath):
     with open(filepath, 'r') as f:
         return [line for line in f]
-
+'''
