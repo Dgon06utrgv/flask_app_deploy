@@ -1,1 +1,0 @@
-import flaskproject.app
