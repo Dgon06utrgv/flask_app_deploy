@@ -14,4 +14,4 @@ def readDetails(filepath):
     with open(filepath, 'r') as f:
         return [line for line in f]
 
-app.run(host='0.0.0.0',port=8080,debug=False)
+app.run()
